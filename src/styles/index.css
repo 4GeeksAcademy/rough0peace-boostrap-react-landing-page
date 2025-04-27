@@ -9,3 +9,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.NavBar {
+    background-color: #303030;
+    color: white;
+}
+.container-page-body {
+    width: 100%;
+    display: inline-grid;
+    justify-content: center;
+}
+.HeroImage {
+    height: 250px;
+    width: 80%;
+    padding: 20px;
+    background-color: lightgray;
+    display: grid;
+    justify-items: start;
+}
+.Portfolio{
+
+}
+.footer{
+    text-align: center;
+    font-size: small;
+}
