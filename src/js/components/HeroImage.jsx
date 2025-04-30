@@ -1,6 +1,6 @@
 export const HeroImage = () => {
     return (
-        <div className="HeroImage">
+        <div className="HeroImage w-100">
             <div className="HeroGreeting">
                 <h2>A Warm Welcome!</h2>
             </div>
@@ -12,4 +12,4 @@ export const HeroImage = () => {
         </div>
         
     )
-}
+};

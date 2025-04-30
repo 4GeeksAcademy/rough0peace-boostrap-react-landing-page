@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark">
+    <nav className="navbar navbar-expand-lg bg-dark w-100">
       <div className="container-fluid">
         <a className="navbar-brand text-light" href="#">
           Start Boostrap

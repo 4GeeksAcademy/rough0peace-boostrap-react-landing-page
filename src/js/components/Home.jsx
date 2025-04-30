@@ -10,14 +10,19 @@ import { Portfolio } from "./Portfolio"
 const Home = () => {
 	return (
 		<div className="container-main">
-			<Navbar />
-			<div className="container-page-body">
-				<HeroImage />
-				<Portfolio />
-				<div className="footer fixed-bottom bg-dark text-light">
-					<p>Copyright © IanGarvey</p>
+			<div className="container-fluid p-0">
+				<Navbar />
+			</div>
+			<div className="d-flex">
+				<div className="container d-inline-flex flex-column align-items-center mx-auto">
+					<HeroImage />
+					<Portfolio />
+					<div className="footer fixed-bottom bg-dark text-light">
+						<p>Copyright © IanGarvey</p>
+					</div>
 				</div>
 			</div>
+			
 		</div>
 	);
 };
